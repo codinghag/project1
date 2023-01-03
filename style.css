@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(199, 197, 197);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 2.5%;
+    background: lightgrey;
+    width: 100%;
+    height: 55px;
+}
+
+.links li{
+    display: inline-flex;
+}
+
+.links li a button {
+    font-family: "cambris", san-serif;
+    font-weight: 500;
+}
+
+button{
+    background: rgba(0, 136, 169, 1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.links li a button:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+h2 {
+    font-family: "cambris", san-serif;
+    font-weight: 800;
+    margin-right: auto;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.container {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+
+.cards {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.image-section {
+    height: 355px;
+    background-color: rgba(0, 136, 169, 1);
+}
+
+h2{
+    font-size: 18px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+
+}
+
+footer {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  footer button {
+    background-color: rgba(0, 136, 169, 1);
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+  }
+  
